@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @ToString
-@RequiredArgsConstructor
 @AllArgsConstructor
 @NoArgsConstructor
 public class Ride {
@@ -21,7 +20,7 @@ public class Ride {
     private String id;
     @Column(nullable = false)
     private String riderId;
-    @Column(nullable = false)
+
     private String driverId;
     @Column(nullable = false)
     private double pickupLatitude;

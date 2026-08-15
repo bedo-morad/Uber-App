@@ -23,5 +23,5 @@ public class RideRequest {
     @NotNull(message = "Drop longitude is required")
     private double dropLongitude;
     @NotBlank(message = "Drop address is required")
-        private String dropAddress;
+    private String dropAddress;
 }
